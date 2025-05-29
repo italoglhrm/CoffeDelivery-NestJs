@@ -5,6 +5,7 @@ export interface Coffee {
     preco?: number;
     id: string;
     descricao?: string;
+    date?: string;
     tags?: string[];
 }
 export declare class AppService {

@@ -16,6 +16,7 @@ let AppService = class AppService {
             quantidade: 1,
             preco: 4,
             id: '1',
+            date: '28/05/2025'
         },
         {
             nome: 'Paraíso',
@@ -24,6 +25,7 @@ let AppService = class AppService {
             preco: 25.6,
             id: '22',
             descricao: 'Café encorpado com notas intensas de cacau e aroma marcante',
+            date: '28/05/2025',
             tags: ['intenso', 'cacau', 'tradicional']
         }
     ];

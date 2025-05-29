@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, NotFoundException, BadRequestException, HttpCode, HttpStatus } from '@nestjs/common';
+import { Body, Controller, Get, Param, Query, Post, NotFoundException, BadRequestException, HttpCode, HttpStatus } from '@nestjs/common';
 import { AppService, Coffee } from './app.service';
 import { CreateCoffeeDto } from './create-coffee.dto';
 import { validateSync } from 'class-validator';
@@ -31,4 +31,5 @@ export class AppController {
       cafe: newCoffee
     };
   }
+
 }
